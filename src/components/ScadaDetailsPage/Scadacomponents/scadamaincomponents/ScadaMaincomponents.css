@@ -1,0 +1,25 @@
+.scadaimgdiv {
+  position: absolute;
+  top: 20vh;
+  left: 15px;
+  height: 66vh;
+  width: 35vw;
+  background-color: rgb(243, 240, 237);
+}
+.scadaimg {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.sensorgraph{
+  position: absolute;
+  top:20vh;
+  left:40vw;
+
+}
+.scadadetailsimgadjuster{
+display: flex;
+flex-direction: row;
+width:100vw;
+height:80vh;
+}

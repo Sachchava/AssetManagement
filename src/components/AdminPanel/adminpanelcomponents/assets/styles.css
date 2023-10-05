@@ -1,0 +1,186 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+html{
+  font-family: 'Cairo', sans-serif;
+}
+.assets{
+  position: absolute;
+  top:16vh;
+  right :3vw;
+  height:80vh;
+  width:50vw;
+  border-top:1px solid black;
+  border-left:1px solid black;
+  /* background-color: rgb(255, 255, 255); */
+  box-shadow:2px 2px rgb(196, 196, 196);
+  display: flex;
+
+}
+.assetheader{
+  position: absolute;
+  top:0;
+  right:0;
+  height:5vh;
+  width:100%;
+  /* align-content: center; */
+  background-color: rgb(255, 255, 255)  ;
+  border-bottom: 1px solid black;
+}
+.assetheaderh2{
+  font-weight:100;
+  padding:5px;
+  color:rgb(18, 46, 18);
+}
+
+.aprows{
+  padding:10px;
+  font-family: sans-serif;
+  font-weight:300;
+  font-size:1.1rem;
+}
+.aprow{
+  width:100%;
+  background-color: rgb(221, 228, 255);
+  text-align: center;
+}
+.aprowval{
+  width:100%;
+  background-color: rgb(239, 242, 255);
+  text-align: center;
+}
+.aprowvals{
+  padding:7px;
+  font-size:1rem;
+}
+.aprowvalsupdate{
+  padding:7px;
+  font-size:1rem;
+  background-color: rgb(179, 201, 255);
+}
+.apupdatelogo{
+  height:24px;
+  margin-right: 16px;
+  cursor:pointer;
+}
+.apdeletelogo{
+  height:24px;
+  cursor:pointer;
+}
+
+.addscadas{
+  position: absolute;
+  top:16vh;
+  left:4vw;
+  height:80vh;
+  width:40vw;
+  border-top:1px solid black;
+  border-left:1px solid black;
+  box-shadow:2px 2px rgb(196, 196, 196);
+}
+.addscadaheader{
+  position: absolute;
+  top:0;
+  left:0;
+  height:5vh;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.addscadaheaderh2{
+  font-family: 'Cairo', sans-serif;
+  font-weight:100;
+  font-size:1.4rem;
+  padding:5px;
+  color:rgb(18, 46, 18);
+}
+.addscadaform{
+  position: absolute;
+  top:10vh; 
+  left:7vh;
+  display: flex;
+  flex-direction: column;
+}
+.scadanameh2{
+  font-size:1.5rem;
+  font-weight:100;
+  margin:10px;
+}
+.scadastatus{
+  font-size:1.5rem;
+  font-weight:100;
+  margin:10px;
+}
+.scadanameinput{
+  font-size:1.1rem;
+  border:1px solid black;
+  padding-left:10px;
+  height:1.4rem;
+  padding:7px;
+}
+.scadastatusinput{
+  font-size:1.1rem;
+  border:1px solid black;
+  padding-left:10px;
+  height:1.4rem;
+  padding:7px;
+}
+
+.addscadabutton{
+  border: 1px solid black;
+  font-size:1.2rem;
+  margin:20px;
+  padding:10px;
+  cursor:pointer;
+}
+.statusandbutton{
+  display: flex;
+}
+.addviewform{
+  position: absolute;
+  top:40vh; 
+  left:7vh;
+  display: flex;
+  flex-direction: column;
+}
+.vsusername{
+  font-size:1.5rem;
+  font-weight:100;
+  margin:10px;
+}
+.vscadastatus{
+  font-size:1.5rem;
+  font-weight:100;
+  margin:10px;
+}
+.vvscadastatusinput{
+  font-size:1.1rem;
+  border:1px solid black;
+  padding-left:10px;
+  height:1.4rem;
+  padding:7px;
+}
+
+.vaddscadabutton{
+  border: 1px solid black;
+  font-size:1.2rem;
+  margin:20px;
+  padding:10px;
+  cursor:pointer;
+}
+.uvadderform{
+  position: absolute;
+  top:40vh;
+  left:3.5vw;
+  width:35%;
+  display: flex;
+  flex-direction:column;
+}
+.scadastatusradiobutton1{
+  margin:10px;
+}
+.scadastatusradiobutton2{
+  margin:10px;
+}

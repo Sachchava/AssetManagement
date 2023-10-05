@@ -1,0 +1,184 @@
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+.maindiv{
+height: 100vh;
+width:100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(244, 254, 255);
+}
+
+.divb{
+  height:66vh;
+  width:60vw;
+  background-color: #ffffff ;
+  position: absolute;
+  top:17vh;
+  left:15vw;
+  box-shadow: 3px 3px rgba(130, 130, 130, 0.584);
+}
+.lnav{
+  position: absolute;
+  top:0;
+  left:0;
+  height:12vh;
+  width:100%; 
+  background-color: #eaf6fb;
+}
+
+.lnrightdiv{
+  height:5vh;
+  width:auto;
+  position: absolute;
+  top:5vh;
+  right:4vh;
+  color:rgb(34, 77, 149);
+}
+.llogo{
+  height:9vh;
+  width:auto;
+  position: absolute;
+  top:1vh;
+  left:2vw;
+  padding:7px;
+  
+}
+
+.llogoh2{
+  position: absolute;
+  top:7vh;
+  left:0.8vw;
+  font-family: 'Montserrat';
+  font-weight:200;
+  color:rgb(0, 0, 89);
+  border-bottom:3px solid rgb(0, 0, 89);
+}
+.div1b{
+  position: absolute;
+  top:0;
+  right:0;
+  height:60vh;
+  width:30vw;
+}
+.div1bimg{
+  position: absolute;
+  top:12vh;
+  right:-2vh;
+  height:350px;
+  transform: rotate(3deg);
+}
+.qmarks{
+  position: absolute;
+  top:25vh;
+  left:12.5vw;
+  height:17px;
+  width:auto;
+}
+.qmarksre{
+  position: absolute;
+  top:25vh;
+  left:-4.3vw;
+  height:17px;
+  width:auto;
+  z-index:999;
+  transform: rotateY(180deg);
+}
+.webui{
+  position: absolute;
+  top:27vh;
+  left:-3vw;
+  z-index: 999;
+  font-weight:100;
+  font-size:1.7rem;
+  font-family: 'Cairo', sans-serif;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left:5vw;
+}
+.div2b{
+  position: absolute;
+  top:19vh;
+  left:0%;
+  height:35vh;
+  width:30vw;
+  padding:40px 20px 0 20px;
+  background-color: #ffffff ;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.requiredd{
+  color:red;
+}
+.forml1{
+  font-size:1.1rem;
+  font-family: 'Cairo', sans-serif;
+  font-weight:300;
+  margin-bottom:5px;
+}
+.emailinput{
+  border:1px solid black;
+  height:1.2rem;
+  font-size:16px  ;
+  padding:12px;
+  width:70%;
+}
+.forml2{
+  padding-top:10px;
+  font-size:1.1rem;
+  font-family: 'Cairo', sans-serif;
+  font-weight:100;
+  margin-bottom:5px;
+}
+.passwordinput{
+  border:1px solid black;
+  height:1.6rem;
+  font-size:15px  ;
+  padding:12px;
+  width:70%;
+  
+}
+.registerlink{
+  margin:10px;
+  margin-left:11.3vw;
+
+}
+
+.submitbutton{
+  margin-top:20px;
+  padding:10px;
+  width:70%;
+  font-size:1rem;
+  background-color: #3d80cd;
+  color:white;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+.foot{
+  height:5vh;
+  width:100%;
+  position: absolute;
+  bottom:0;
+  right:0;
+  border-top:0.5px solid rgba(0, 0, 0, 0.368);
+}
+.foot h3{
+  position: absolute;
+  top:0;
+  right:8px;
+  font-family: 'Cairo', sans-serif; 
+  font-weight:100;
+  margin-top:3px;
+  font-size:1rem;
+  padding:6px;
+}

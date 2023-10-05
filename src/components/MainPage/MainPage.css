@@ -1,0 +1,4 @@
+.scada-contianer {
+  display: flex;
+  flex-direction: column;
+}

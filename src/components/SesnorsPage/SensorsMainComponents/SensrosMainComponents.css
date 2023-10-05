@@ -1,0 +1,54 @@
+.senrosmaindiv{
+  position:absolute;
+  top:12.5vh; 
+  left:0;
+  width:100vw;
+  height:87vh;
+  background-color: rgb(236, 255, 255);
+  overflow:hidden;
+}
+.senrosdiv1{
+  position: absolute;
+  top:4vh;
+  right:12vh;
+  height:80vh;
+  width:50vw;
+  background-color: azure;
+}
+.senrosdiv2{
+  position: absolute;
+  top:4vh;
+  left:4vh;
+  height:77vh;
+  width:38vw;
+  background-color: rgb(214, 241, 255);
+}
+.senrosdiv2header{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width:100%;
+  height:5vh;
+  background-color: rgb(165, 223, 255);
+}
+.senrosdiv2headerh2{
+  font-weight:100;
+  font-family: "Cairo", sans-serif;
+  margin:8px;
+}
+
+.sensoriddiv, .sensorstatusdiv, .sensorlocationdiv, .sensorperformancediv, .sensorminvaldiv, .sensormaxvaldiv, .sensoravgvaldiv{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+.sensordetailstitle{
+  font-weight:100;
+  font-family: "Cairo", sans-serif;
+  margin:10px;
+}
+.sensordetailsresponse{
+  font-family: "Cairo", sans-serif;
+  font-size:1.3rem;
+}

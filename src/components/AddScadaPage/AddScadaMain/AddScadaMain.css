@@ -1,0 +1,103 @@
+.addscadamaindiv{
+    position: absolute;
+    top:16vh;
+    left:1vw;
+    height:81vh;
+    width:98%;
+    background-color: rgb(235, 255, 253);
+    box-shadow:2px 2px rgb(182, 182, 182);
+}
+.addscadabox1{
+    margin:30px;
+    height:90%;
+    width:40%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+.addscadaform1{
+display: flex;
+flex-direction: column;
+
+}
+.addscadaboxheaderdiv{
+position: absolute;
+height:8vh;
+width:39vw;
+background-color: rgb(255, 255, 255);
+padding:13px;
+border-bottom:1px solid black;
+}
+
+.addscadaformh1{
+    position: absolute;
+    top:14vh;
+    left:4vw;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.selectsensor{
+    position: absolute;
+    top:0;
+    left:17vw;
+    top:14vh;
+    font-size:1.2rem;  
+    border:1px solid black;
+    padding:4px; 
+}
+.addscadaformsvh1{
+    position: absolute;
+    top:0;
+    left:4vw;
+    top:20vh;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.svinput{
+    position: absolute;
+    top:20vh;
+    left:17vw;
+   height:1.9rem;
+    width:14vw;
+    font-size:1.1rem;
+    padding-left:8px;
+    border:1px solid black;
+}
+.svsubmitbutton{
+    position: absolute;
+    top:28vh;
+    left:15vw;
+    font-size:1.3rem;
+    padding:10px;
+
+    background-color: #5d9ee8;
+}
+.sensorsdatadiv{
+    position: absolute;
+    top:4vh;
+    right:2vw;
+    height:90%;
+    width:50%;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+.svddiv{
+    
+    height:8vh;
+    width:100%;
+    background-color: #ffffff;
+    padding:10px;
+    padding-top:12px;
+    border-bottom:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.svddivh3{
+padding:10px;
+margin:10px;
+background-color: bisque;
+}
+
+
+  
